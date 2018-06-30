@@ -5,8 +5,8 @@ def my_slice(slice_arr)
     nil
   elsif (slice_spot + 1) <= slice_arr.length
     chopped = slice_arr.delete_at(slice_spot)
-    p chopped
-    p slice_arr
+    # p chopped
+    # p slice_arr
   end
 end
 
