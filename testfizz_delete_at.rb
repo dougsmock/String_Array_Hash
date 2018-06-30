@@ -16,7 +16,13 @@ class DeleteAt < Minitest::Test
 
   def test_if_slice_spot_plus_one
     slice_arr = ["1", "2", "3"]
-    assert_equal(slice_arr.delete_at(1),"2") 
-    end
+    assert_equal(slice_arr.delete_at(1),"2")
+  end
+
+  def test_if_chopped
+    slice_arr = ["1", "2", "3"]
+    slice_arr.delete_at(1)
+    assert_equal(slice_arr, slice_arr = ["1", "3"])
+  end
 
 end
