@@ -7,8 +7,10 @@ class DeleteAt < Minitest::Test
     assert_equal(1, 1)
   end
 
-  def test_if_slice_this_arr_has_no_2
-    slice_this_arr = ["1", "2", "3"]
-    assert_equal(["1", "2"], my_slice(slice_this_arr))
+  def test_if_delete_at_equals
+    slice_arr = ["1", "2", "3"]
+    assert_equal(slice_arr[0]) == "1"
+    assert_equal(slice_arr(1)) == "2"
+    assert_equal(slice_arr(2)) == "3"
   end
 end
