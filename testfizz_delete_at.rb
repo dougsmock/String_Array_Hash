@@ -11,7 +11,7 @@ class DeleteAt < Minitest::Test
     slice_arr = ["1", "2", "3"]
     assert_equal(slice_arr[0], "1")
     assert_equal(slice_arr[1], "2")
-    assert_equal(slice_arr[3], "4")
+    assert_equal(slice_arr[3], nil)
 
   end
 
