@@ -12,7 +12,11 @@ class DeleteAt < Minitest::Test
     assert_equal(slice_arr[0], "1")
     assert_equal(slice_arr[1], "2")
     assert_equal(slice_arr[3], nil)
-
   end
+
+  def test_if_slice_spot_plus_one
+    slice_arr = ["1", "2", "3"]
+    assert_equal(slice_arr.delete_at(slice_spot[0]),"1") 
+    end
 
 end
