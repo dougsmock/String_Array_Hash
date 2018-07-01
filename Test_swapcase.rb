@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require_relative "ArrayExercise.rb"
+require_relative "stringSwapcase.rb"
 
 class StringSwap < Minitest::Test
 
