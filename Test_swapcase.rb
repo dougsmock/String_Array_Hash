@@ -10,7 +10,7 @@ class StringSwap < Minitest::Test
   def test_flip_case
     string = []
     change_case()
-    assert_equal("sTRINGS_rOCK", (change_case("Strings_rock")))
+    assert_equal("sTRINGS_rOCK", (change_case(), "Strings_rock"))
   end
 
 
