@@ -1,9 +1,7 @@
-# "BellyAching".swapcase
+string = ""
 
-def change_case()
-  string = []
+def change_case(string)
   i = 0
-  string.split = ['']
   while i <= string.length
     if string[i] = string[i].upcase
       string[i].downcase
