@@ -8,9 +8,9 @@ class StringSwap < Minitest::Test
   end
 
   def test_flip_case
-    string = []
+    string = ""
     change_case()
-    assert_equal("sTRINGS_rOCK", (change_case(), "Strings_rock"))
+    assert_equal("sTRINGS_rOCK", change_case("Strings_Rock"))
   end
 
 
