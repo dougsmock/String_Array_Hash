@@ -14,7 +14,7 @@ class StringSwap < Minitest::Test
 
   def test_assert_change_case_to_upper
     str = ""
-    assert_equal(change_case("c"), "C")
+    assert(change_case("c"), "C")
   end
 
   # def test_swap_first_position
