@@ -10,6 +10,7 @@ def change_case(str)
     end
     i += 1
   end
+  return str
 end
 
 
