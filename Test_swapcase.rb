@@ -7,8 +7,8 @@ class StringSwap < Minitest::Test
     assert_equal(1, 1)
   end
 
-  def test_flip_case
-    assert_equal("c", change_case("C"))
+  def test_swap_first_position
+    assert_equal(change_case("D"), "d")
   end
 
 
